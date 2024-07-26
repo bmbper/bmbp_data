@@ -1,0 +1,14 @@
+[workspace]
+members = ["code/*"]
+resolver = "2"
+[workspace.package]
+version = "0.0.1"
+edition = "2021"
+authors = ["bmbp<rs_bmbp.163.com>"]
+description="Report Engine"
+license="MIT"
+readme = "README.md"
+homepage="https://github.com/bmbper/bmbp_data"
+repository="https://github.com/bmbper/bmbp_data"
+documentation="https://github.com/bmbper/bmbp_data"
+[workspace.dependencies]
