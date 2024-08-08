@@ -16,5 +16,6 @@
 <script src="/bmbp/ui/lib/arco/arco.min.js"></script>
 <script src="/bmbp/ui/lib/arco/arco-icon.min.js"></script>
 <script src="/bmbp/ui/lib/axios.min.js"></script>
-<script src="/bmbp/ui/data/app/meta_group.js"></script>
+<script src="/bmbp/ui/data/app/meta/group/logic.js"></script>
+<script src="/bmbp/ui/data/app/meta/group/view.js"></script>
 </html>
