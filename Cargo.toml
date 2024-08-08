@@ -12,3 +12,14 @@ homepage="https://github.com/bmbper/bmbp_data"
 repository="https://github.com/bmbper/bmbp_data"
 documentation="https://github.com/bmbper/bmbp_data"
 [workspace.dependencies]
+bmbp_data = {version = "0.0.1" , path = "code/bmbp_data"}
+bmbp_data_ui = {version = "0.0.1" , path = "code/bmbp_data_ui"}
+bmbp_data_meta = {version = "0.0.1" , path = "code/bmbp_data_meta"}
+bmbp_lib_ui = "0.1.1"
+bmbp_ctx_vars = "0.1.1"
+rust-embed = "8.5.0"
+salvo = {version="0.69.0", features = ["serve-static"] }
+tokio = { version = "1.38.0", features = ["full"] }
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3.16", features = ["env-filter"] }
+tera = "1.20.0"

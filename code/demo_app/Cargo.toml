@@ -1,5 +1,5 @@
 [package]
-name = "bmbp_data"
+name = "demo_app"
 version.workspace = true
 edition.workspace = true
 authors.workspace = true
@@ -11,4 +11,9 @@ repository.workspace = true
 documentation.workspace = true
 
 [dependencies]
-bmbp_data_ui = {workspace=true}
+bmbp_lib_ui = { workspace = true }
+bmbp_data = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+salvo = { workspace = true }
+tokio = { workspace = true }

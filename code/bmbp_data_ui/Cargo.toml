@@ -10,3 +10,8 @@ homepage.workspace = true
 repository.workspace = true
 documentation.workspace = true
 [dependencies]
+rust-embed = {workspace = true}
+salvo = {workspace = true}
+bmbp_data_meta = { workspace = true }
+tera = { workspace = true}
+bmbp_ctx_vars = { workspace = true }
