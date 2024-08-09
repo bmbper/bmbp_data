@@ -5,7 +5,7 @@ use salvo::serve_static::static_embed;
 use tera::Tera;
 
 #[derive(RustEmbed)]
-#[folder = "ui_pages"]
+#[folder = "web/tmplate"]
 pub(crate) struct PageAssets;
 
 pub(crate) static DATA_TERA: LazyLock<Tera> = LazyLock::new(|| {
@@ -22,7 +22,7 @@ pub(crate) static DATA_TERA: LazyLock<Tera> = LazyLock::new(|| {
 
 
 #[derive(RustEmbed)]
-#[folder = "ui_static"]
+#[folder = "web/static"]
 struct StaticAssets;
 
 pub(crate) fn build_bmbp_data_static_router() -> Router {

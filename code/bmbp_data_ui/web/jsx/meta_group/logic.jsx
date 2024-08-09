@@ -1,6 +1,5 @@
-const MetaGroupState = {};
-
-const MetaGroupLogic={
+export const MetaGroupState = {};
+export const MetaGroupLogic={
   addMetaGroupBrother: (data) => {
     alert(data.metaGroupCode);
   },
