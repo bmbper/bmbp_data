@@ -26,17 +26,17 @@ var MetaGroupLogic = {
 
 // web/jsx/meta_group/index.jsx
 var MetaGroupView = () => {
-  return /* @__PURE__ */ React.createElement("div", {
+  return React.createElement("div", {
     className: "meta"
-  }, /* @__PURE__ */ React.createElement(arco.Button, {
+  }, React.createElement(arco.Button, {
     onClick: () => {
       MetaGroupLogic.addMetaGroupBrother({ metaGroupCode: "AAAAA" });
     }
-  }, "\u9A8C\u8BC1"), /* @__PURE__ */ React.createElement(arco.Button, {
+  }, "\u9A8C\u8BC1"), React.createElement(arco.Button, {
     onClick: () => {
       MetaGroupLogic.addMetaGroupBrother({ metaGroupCode: "AAAAA" });
     }
   }, "\u9A8C\u8BC1"));
 };
 var root = ReactDOM.createRoot(document.getElementById("app"));
-root.render(/* @__PURE__ */ React.createElement(MetaGroupView, null));
+root.render(React.createElement(MetaGroupView, null));
